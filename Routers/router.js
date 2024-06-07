@@ -3,8 +3,8 @@ import { forgotPassword, loginUser, registerUser } from "../Controllers/controll
 
 const router=express.Router();
 
-router.post("/register",registerUser)
-router.post("/login",loginUser)
-router.post("/forgot-password",forgotPassword)
+router.use("/register",registerUser)
+router.use("/login",loginUser)
+router.use("/forgot-password",forgotPassword)
 
 export default router;
