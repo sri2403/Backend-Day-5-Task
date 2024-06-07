@@ -7,9 +7,15 @@ This project implements a simple authentication system with "Login", "Register",
 ## API Endpoints
 Ensure you have a backend server running at http://localhost:5000 with the following endpoints:
 
-POST /api/login: For user login.
-POST /api/register: For user registration.
-POST /api/forgot-password: For password reset requests.
+- POST /api/register: For user 
+registration.
+![login](login.png)
+
+- POST /api/login: For user login.
+![register](register.png)
+
+- POST /api/forgot-password: For password reset requests.
+![forgot-password](forgot-password.png)
 
 ## API Documentation 
 
@@ -17,4 +23,5 @@ Postman link=>https://documenter.getpostman.com/view/32019732/2sA3Qzaoag
 
 ## Output
 
-Render link=>
+Render link=>https://backend-day-5-task.onrender.com
+
