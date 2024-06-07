@@ -17,12 +17,12 @@ app.use("/api",router);
 connectDB();
 app.get("/",(req,res)=>{
     res.status(200).send(`
-    <div className="text-center"><h1>Node Day 5 Task</h1>
-    <h6><strong>/api/register:</strong> Create a new user account.</h6>
-    <h6<strong>/api/login:</strong> Log in to an existing user account.</p>
-    <h6><strong>/api/forgot-password:</strong> Reset your password if forgotten.</h6>
-    <p>This is the main endpoint of our Node.js application for day 5 tasks, 
-    providing information about user account-related functionalities.</p></div>
+    <h1>Node Day 5 Task</h1>
+    <h5><strong>/api/register:</strong> Create a new user account.</h5>
+    <h5<strong>/api/login:</strong> Log in to an existing user account.</p>
+    <h5><strong>/api/forgot-password:</strong> Reset your password if forgotten.</h5>
+    <6>This is the main endpoint of our Node.js application for day 5 tasks, 
+    providing information about user account-related functionalities.</6>
 `)
 })
 app.listen(process.env.PORT||3000,()=>{
